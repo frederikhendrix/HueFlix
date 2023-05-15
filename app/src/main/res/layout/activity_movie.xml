@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <!-- Top Part -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#000000">
+
+        <!-- Left Image -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/MainImage"
+            android:src="@drawable/ingloriousbasterdsimage"
+            android:contentDescription="image_inglorious" />
+
+        <!-- Center Image -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/pieInglorious"
+            android:src="@drawable/piechartinglorious"
+            android:contentDescription="pie_inglorious"/>
+
+        <!-- Right Dropdown -->
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/spinner"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF" />
+
+    </LinearLayout>
+
+    <!-- Bottom Part -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:background="#000000">
+
+        <!-- First Section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:src="@drawable/thegrandbudapesthotelthumbnail"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/pieTheGrandBudapestHotel"
+                android:src="@drawable/piechartthegrandbudapesthotel"/>
+
+        </LinearLayout>
+
+        <!-- Second Section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:src="@drawable/inbrugesthumbnail"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/pieInBurges"
+                android:src="@drawable/piechartburges"/>
+
+        </LinearLayout>
+
+        <!-- Third Section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:src="@drawable/hotfuzzthumbnail"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/pieHotFuzz"
+                android:src="@drawable/piecharthotfuzz"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
